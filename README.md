@@ -28,7 +28,7 @@ All class definitions have example code included as labview projects (.lvproj).
 You can use NI Hardware for the DAQ definitions, or you can also simulate hardware using NI-MAX.
 
 ## NOTE 
-- Some of the classes (ie. DAQ) start an independent background process. If not properly stopped, these indpendent process will run in the background until LabView is shut down.  So be sure to use the appropriate `Stop` VI.
+- Some of the classes (ie. DAQ) start an independent background process. If not properly stopped, these indpendent process will run in the background until LabView is shut down.  So be sure to use the appropriate `Stop` class method VI (ie. DAQ/Analog Input/AI_class/Stop AI.vi).
 - All classes were made using NI GOOP, however GOOP is not needed to use these LabVIEW classes.
 - All classes will work in Labview 2016 and later
 
