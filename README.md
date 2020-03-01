@@ -25,3 +25,11 @@ You can use NI Hardware for the DAQ definitions, or you can also simulate hardwa
 ## NOTE 
 - All classes were made using NI GOOP, however GOOP is not needed to use these LabVIEW classes.
 - All classes will work in Labview 2016 and later
+
+
+## :bust_in_silhouette: Author
+**Ismet Handžić** - Github: [@ismet55555](https://github.com/ismet55555)
+
+
+## Licence
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
