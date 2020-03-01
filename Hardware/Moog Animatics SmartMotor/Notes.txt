@@ -1,0 +1,29 @@
+====================================
+		Motor
+====================================
+
+
+- Initilize.vi happens for all motors, not part of object
+- Motor_Command_Array_Write.vi is not part of object and is called by each object
+
+=======================================================================================
+
+Motor Object
+Each motor object cooresponds to one workstation
+
+Attributes:
+	- VISA Resource Name
+	- Workstation Number
+	- Motor Address Number 
+	- Motor Status 		- Enum (Type Def)
+	
+
+Methods
+	- Create
+	- Set Motor
+	- Zero
+	- Start Motor
+	- Stop Motor
+	- Destroy
+
+	- ... more later

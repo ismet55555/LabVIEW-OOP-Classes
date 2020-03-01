@@ -1,0 +1,32 @@
+====================================
+	    Power Supply
+====================================
+
+
+- Power Supply Model: TDK Lambda - Genesys GEN6-200
+
+- Initialize.vi happens for all power supplies in the chain, not part of object
+
+=======================================================================================
+
+Power Supply Object
+Each power supply cooresponds to one workstation
+
+Attributes:
+	- VISA Resource Name
+	- Workstation Number
+	- Power Supply Address Number
+	- Power Supply status - Off/On/Open
+	- Power Supply Voltage
+	- Power Supply Current
+
+
+Methods:
+	- Create
+	- Destory
+	- Set Power Supply
+	- Set On
+	- Set Off
+	- Set Voltage and Current
+
+	- ... more 
