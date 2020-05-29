@@ -25,7 +25,9 @@ To import any of the LabVIEW classes into your own labview project, simply add t
 
 ## Examples
 All of these LabVIEW class definitions have example code included in the form of a labview project (.lvproj).
-You can use actual NI Hardware for the DAQ definitions, or you can also simulate hardware using NI-MAX. If you are not sure how to create a simulated hardware, here is an overview: http://www.ni.com/tutorial/3698/en/  (Note that you only have to create it, then use these LabVIEW classes to reference them)
+You can use actual NI Hardware for the DAQ definitions, or you can also simulate hardware using NI-MAX. 
+
+If you are not sure how to create a simulated hardware, here is an overview: http://www.ni.com/tutorial/3698/en/  (Note that you only have to create it, then use these LabVIEW classes to reference them). If you cannot find the "Create New" button in NI-MAX, you may have to download the matching NI-DAQmx. Note, the NI-DAQmx MUST match the LabVIEW version (ie. 20.0 for both)
 
 ## NOTE 
 - Some of the classes (ie. DAQ) start an independent background process, which continously aquires data. If this independent process is not properly stopped, it will run in the background until LabVIEW is exited.  So be sure to use the appropriate `Stop` class method VI (ie. DAQ/Analog Input/AI_class/Stop AI.vi). You can view one of the example projects to see what that should look like.
